@@ -110,3 +110,16 @@ namespace MyApp.Services
     public class UserRepository { }
 }
 ```
+
+---
+
+### 5. We can use aliasing to simplify long namespaces
+
+If you have a long namespace, you can use an alias to simplify it. This is especially useful when working with third-party libraries.
+
+**Example:**
+
+```csharp
+using MyAlias = MyVeryLongNamespace.MyVeryLongClassName;
+using Profile =  basic.basic.Function;
+```
