@@ -78,3 +78,5 @@ const string name = "John";
 4. Implicit casting is done automatically by the compiler, while explicit casting is done manually by the programmer.
 5. Implicit casting is done when there is no data loss, e.g., `int` > `float` / `float` > `double`.
 6. Explicit casting is done when there is data loss, e.g., `double` > `float` / `float` > `int`.
+
+/
